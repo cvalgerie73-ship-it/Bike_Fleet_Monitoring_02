@@ -1,7 +1,6 @@
 import { memo } from 'react'
 import { Card, Badge } from '@/shared/components/ui'
 import { Bike } from 'lucide-react'
-import { getStatusColor } from '@/shared/utils'
 import type { ActiveRide } from '@/shared/types'
 
 interface LiveRideMonitorProps {

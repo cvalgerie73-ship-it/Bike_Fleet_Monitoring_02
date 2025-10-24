@@ -9,12 +9,8 @@ import {
   ResponsiveContainer,
 } from 'recharts'
 
-interface DataPoint {
-  [key: string]: string | number
-}
-
-interface BaseLineChartProps {
-  data: DataPoint[]
+interface BaseLineChartProps<T = any> {
+  data: T[]
   lines: {
     dataKey: string
     stroke: string

@@ -9,7 +9,7 @@ import {
   Wrench,
   Clock,
 } from 'lucide-react'
-import { formatNumber, formatPercentage, getQualityColor } from '@/shared/utils'
+import { formatNumber, formatPercentage } from '@/shared/utils'
 import type { FleetData } from '@/shared/types'
 
 interface KPICardsProps {
